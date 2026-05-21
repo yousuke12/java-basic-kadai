@@ -7,6 +7,11 @@ public abstract class Kato_Chapter18 {
 	public String givenName;
 	public String address;
 	
+	public Kato_Chapter18() {
+        this.familyName = "加藤";
+        this.address = "東京都中野区〇×";
+    }
+	
 	// 2. 共通の紹介を出力するメソッド（全員同じ処理）
 	public void commonIntroduce() {
 		System.out.println("名前は" + this.familyName + this.givenName + "です");

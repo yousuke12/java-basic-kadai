@@ -3,12 +3,9 @@ package kadai_018;
 public class KatoHanako_Chapter18 extends Kato_Chapter18 {
 
     // コンストラクタ
-    public KatoHanako_Chapter18() {
-        this.familyName = "加藤";
+	public void setGivenName() {
         this.givenName = "花子";
-        this.address = "東京都";
     }
-
     // 個別紹介を上書き
     @Override
     public void eachIntroduce() {
